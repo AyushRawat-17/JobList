@@ -1,0 +1,50 @@
+.Contact__Header{
+    background-color: #B5A1FE;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    height: 50vh;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.Contact__Header > h1{
+    padding-top: 70px;
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 4px;
+    font-weight: 600;
+}
+
+.Contact__Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 6rem 27.1rem;
+}
+
+.Contact__Form > input{
+    text-align: center;
+    height: 5em;
+    width: 35em;
+    border-width: thin;
+    margin: 0.5em 0px;
+}
+
+.Contact__Form > textarea{
+    text-align: center;
+    height: 10em;
+    width: 35em;
+}
+
+.Contact__Form > button{
+    margin-top: 1.2em;
+    margin-left: 10em;
+    height: 3em;
+    width: 10em;
+    border: none;
+    border-radius: 4px;
+    background-color: #7E66F7;
+    color: #ffffff;
+    font-weight: bold;
+}

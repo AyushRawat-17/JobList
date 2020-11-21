@@ -1,0 +1,43 @@
+.SearchBar{
+    display:inline-flex ;
+    background-color:#A998F6;
+    width: 66em;
+    height: 4.2em;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.SearchBar__input{
+    margin-top: 10px;
+}
+
+.SearchBar__input > input{
+    height: 40px;
+    width: 315px;
+    padding-left: 2px;
+    border: none;
+}
+
+.SearchBar__input > select{
+    height: 39px;
+    width: 315px;
+    border: none;
+}
+
+.SearchBar__input > button{
+    height: 38px;
+    width: 80px;
+    padding: 10px;
+    background-color: #49E4FA;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.SearchBar__input > button:hover{
+    background-color: #7b61fc;
+}
+

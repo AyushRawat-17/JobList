@@ -1,0 +1,56 @@
+.Navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 22px;
+    background-color:#B5A1FE;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    color: #ffffff;
+    position:sticky;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+.Navigation__Logo{
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+a:hover{
+    color: rgb(86, 247, 86) ;
+}
+
+.Navigation__button{
+    height: 37px;
+    width: 70px;
+    margin: 0px 2px;
+    border: none;
+    background-color: #49E4FA;
+    color: white;
+    cursor: pointer;
+}
+
+.Navigation__button:hover{
+    background-color: #7b61fc;
+}

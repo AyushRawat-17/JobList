@@ -1,0 +1,61 @@
+.About__Header{
+    background-color: #B5A1FE;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    height: 50vh;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.About__Header > h1{
+    padding-top: 70px;
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 4px;
+    font-weight: 600;
+}
+
+.About__Choice{
+    height: 700px;
+    margin: 90px 90px;
+    text-align: center;
+}
+
+.About__Choice > h1 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.About__ChoiceCardsList{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.About__ChoiceCard{
+    height: 12em;
+    width: 20em;
+    margin: 0px 10px;
+    background-color:rgb(247, 245, 245);
+    cursor: pointer;
+    text-align: left;
+}
+
+.About__ChoiceCard:hover{
+    background-color: #7E66F7;
+    color: #ffffff;
+}
+
+.About__ChoiceCard > h2 {
+    margin-top: 30px;
+    margin-left: 13px;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.About__ChoiceCard > p {
+    margin-top: 15px;
+    margin-left: 13px;
+    font-weight: 400;
+
+}

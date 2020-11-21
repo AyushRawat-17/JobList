@@ -1,0 +1,22 @@
+.HeaderContent{
+    background-color: #B5A1FE;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    height: 80vh;
+    width: 100%;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.HeaderContent__heading{
+    padding-top: 80px;
+    font-size: 1.5em;
+}
+
+.HeaderContent__tagline{
+    margin-top: 10px;
+}
+
+.HeadingContent__Amount{
+    color:rgb(86, 247, 86);
+}

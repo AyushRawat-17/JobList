@@ -1,0 +1,16 @@
+.Category__Header{
+    background-color: #B5A1FE;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    height: 50vh;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.Category__Header > h1{
+    padding-top: 70px;
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 4px;
+    font-weight: 600;
+}
