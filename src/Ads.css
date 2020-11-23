@@ -1,30 +1,38 @@
-.Ads{
-    height: 475px;
-    width: 30vw;
-    background-color:rgb(247, 245, 245);  
-    padding: 22px;
-    font-family: 'Poppins', sans-serif;
+.Ads {
+  height: 475px;
+  width: 30vw;
+  background-color: rgb(247, 245, 245);
+  padding: 22px;
+  font-family: "Poppins", sans-serif;
 }
 
-.Ads__Location{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.Ads__Location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.Ads__Contries{
-    background-color: #ffffff;
-    margin: 5px 0px;
-    padding: 10px 4px;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
+.Ads__Contries {
+  background-color: #ffffff;
+  margin: 5px 0px;
+  padding: 10px 4px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
-.Ads__Contries:hover{
-    background-color:  #7b61fc;
+.Ads__Contries:hover {
+  background-color: #7b61fc;
 }
 
-.Ads__Location > h2{
-    font-weight: 600;
+.Ads__Location > h2 {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .Ads {
+    height: 485px;
+    width: 69vw;
+    margin-top: 3em;
+  }
 }

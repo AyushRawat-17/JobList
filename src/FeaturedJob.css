@@ -34,3 +34,37 @@
 .FeaturedJob__Card > img{
     padding-top: 10px;
 }
+
+@media screen and (max-width: 768px){
+    .FeaturedJob__CardList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FeaturedJob > h1{
+        font-size: 2em;
+        margin-top: 20px;
+    }
+
+    .FeaturedJob > h6{
+        font-size: 0.7em;
+    }
+    
+    .FeaturedJob__CardList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .FeaturedJob__Card{
+        height: 10em;
+        width: 12em;
+        margin: 35px 25px;
+    }
+
+    .FeaturedJob__Card > img{
+        padding-top: 2em;
+    }
+}

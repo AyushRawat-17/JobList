@@ -39,3 +39,26 @@
 .JoinContent__button > button:hover{
     background-color: #7b61fc;
 }
+
+@media screen and (max-width: 768px){
+    .JoinContent > h1{
+        font-size: 2em;
+    }
+
+    .JoinContent > h4{
+        padding: 10px 120px;
+        font-size: 1em;
+    }
+
+    .JoinContent__button{
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        justify-content: space-evenly;
+    }
+
+    .JoinContent__button > button{
+        margin-top: 10px;
+    }
+    
+}

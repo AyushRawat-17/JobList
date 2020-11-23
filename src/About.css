@@ -59,3 +59,23 @@
     font-weight: 400;
 
 }
+
+@media screen and (max-width: 768px){
+    .About__ChoiceCardsList{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About__Choice{
+        height: 90em;
+        margin: 50px 90px;
+    }
+
+    .About__ChoiceCard{
+        height: 12em;
+        width: 25em;
+        margin-top: 10px;
+    }
+    
+}

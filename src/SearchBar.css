@@ -41,3 +41,45 @@
     background-color: #7b61fc;
 }
 
+@media screen and (max-width: 768px) {
+    .SearchBar{
+        width: 25em;
+        height: 25em;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    
+    .SearchBar__input{
+        margin-top: 1px;
+    }
+    
+    .SearchBar__input > input{
+        height: 3.2em;
+        width: 25em;
+        border: none;
+    }
+    
+    .SearchBar__input > select{
+        height: 3.2em;
+        width: 25em;
+        border: none;
+    }
+    
+    .SearchBar__input > button{
+        height: 38px;
+        width: 80px;
+        padding: 10px;
+        background-color: #49E4FA;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    .SearchBar__input > button:hover{
+        background-color: #7b61fc;
+    }
+}

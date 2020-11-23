@@ -1,5 +1,15 @@
 .MainContent{
-    margin-top: 80px;
     display: flex;
-    margin-right: 50px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin:0px 50px;
+}
+
+@media screen and (max-width: 768px){
+    .MainContent{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
 }

@@ -12,11 +12,34 @@
     height: 150px;
     width: 250px;
     background-color:#ffff;
-    margin: 0px 10px;
     z-index: 100;
 }
 
 .Cards__Content > h3{
     margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .Cards{
+        display:flex;
+        flex-direction: column;
+        position: static;
+        margin-top: 5.5em ;
+        justify-content: center;
+        align-items: center;
+        position: static;
+    }
+
+    .Cards__Content{
+        height: 14em;
+        width: 20em;
+        text-align: center;
+    }
+
+    .Cards__Content > h3{
+        margin-top: 2.7em;
+        font-size: 1.5em;
+    }
+    
 }
 

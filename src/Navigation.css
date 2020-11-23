@@ -54,3 +54,39 @@ a:hover{
 .Navigation__button:hover{
     background-color: #7b61fc;
 }
+
+.Navigation__Content_Mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .Navigation{
+        display: flex;
+        flex-direction: row;
+        padding-top:1.2em;
+        justify-content: space-between;
+    }
+
+    .Navigation__Content{
+        display: none;
+    }
+
+    .Navigation__Content_Mobile{
+        display:block;
+    }
+    
+    .Mobilenavigation__Link{
+        color: black;
+    }
+
+    .Mobilenavigation__button{
+        background-color: #7366A1;
+        border: none;
+        height: 1em;
+        width: 1em;
+        color: white;
+        cursor: pointer;
+        font-size: 2px;
+    }
+    
+}

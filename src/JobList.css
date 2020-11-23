@@ -55,3 +55,19 @@
     font-size: 1em;
     margin-top: 5px;
 }
+
+@media screen and (max-width: 768px){
+    .JobList__Content{
+        margin: 10px 9px;
+        height: 70em;
+        width: 32em;
+        padding: 25px;
+    }
+
+    .JobList__Button{
+        justify-content: space-around;
+        position: absolute;
+        left: 28em;
+    }
+
+}
