@@ -79,3 +79,13 @@
     }
     
 }
+
+@media screen and (max-width: 600px){
+    .About__ChoiceCard{
+        width: 18em;
+    }
+
+    .About__Choice > h1 {
+        font-size: 1.2em;
+    }
+}

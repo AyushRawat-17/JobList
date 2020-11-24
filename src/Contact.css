@@ -49,6 +49,14 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
+    .Contact__Form > input{
+        height: 3em;
+        width: 23em;
+    }
 
+    .Contact__Form > textarea{
+        height: 7em;
+        width: 23em;
+    }
 }

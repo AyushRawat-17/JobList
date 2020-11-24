@@ -62,3 +62,21 @@
     }
     
 }
+
+@media screen and (max-width: 480px){
+    .JoinContent > h1{
+        padding-top: 50px;
+        font-size: 2em;
+    }
+
+    .JoinContent > h4{
+        padding: 10px 50px;
+        font-size: 0.7em;
+    }
+
+    .JoinContent__button > button{
+        height: 50px;
+        width: 100px;
+        font-weight:400
+    }
+}

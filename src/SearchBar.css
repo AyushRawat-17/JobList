@@ -83,3 +83,28 @@
         background-color: #7b61fc;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .SearchBar{
+        width: 20em;
+        height: 18em;
+        margin: 2px auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .SearchBar__input > input{
+        height: 40px;
+        width: 22em;
+        padding-left: 2px;
+        border: none;
+    }
+
+    .SearchBar__input > select{
+        height: 39px;
+        width: 22em;
+        border: none;
+    }
+}

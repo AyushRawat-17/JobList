@@ -18,6 +18,10 @@ function JobList() {
         <h4>Job Nature: Full Time</h4>
         <h4>Job Location: Delhi</h4>
         <h4>Salary: 15K-25K</h4>
+        <div className="JobList__Button_mobile">
+          <button>❤</button>
+          <button>Apply</button>
+        </div>
       </div>
       <div className="JobList__Content">
         <h3>Teacher</h3>
@@ -33,6 +37,10 @@ function JobList() {
         <h4>Job Nature: Full Time</h4>
         <h4>Job Location: Ghaziabad</h4>
         <h4>Salary: 10K-15K</h4>
+        <div className="JobList__Button_mobile">
+          <button>❤</button>
+          <button>Apply</button>
+        </div>
       </div>
       <div className="JobList__Content">
         <h3>MERN Stack Developer</h3>
@@ -48,6 +56,10 @@ function JobList() {
         <h4>Job Nature: Internship</h4>
         <h4>Job Location: Mumbai</h4>
         <h4>Salary: 5K-15K</h4>
+        <div className="JobList__Button_mobile">
+          <button>❤</button>
+          <button>Apply</button>
+        </div>
       </div>
       <div className="JobList__Content">
         <h3>Android Developer</h3>
@@ -63,6 +75,10 @@ function JobList() {
         <h4>Job Nature: Full Time</h4>
         <h4>Job Location: Hyderabad</h4>
         <h4>Salary: 20K-25K</h4>
+        <div className="JobList__Button_mobile">
+          <button>❤</button>
+          <button>Apply</button>
+        </div>
       </div>
     </div>
   );

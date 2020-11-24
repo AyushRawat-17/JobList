@@ -36,3 +36,11 @@
     margin-top: 3em;
   }
 }
+
+@media screen and (max-width: 480px){
+  .Ads {
+    height: 30em;
+    width: 65vw;
+    margin-top: 1em;
+}
+}

@@ -2,14 +2,15 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin:0px 50px;
+    margin: 30px 50px;
 }
 
 @media screen and (max-width: 768px){
     .MainContent{
-        margin-top: 80px;
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
+        align-items: center;
+        margin: 1em 0px;
     }
 }
