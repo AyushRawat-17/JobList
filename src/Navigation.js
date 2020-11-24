@@ -50,12 +50,6 @@ function Navigation() {
               CONTACT
             </NavLink>
           </MenuItem>
-          <MenuItem onClick={handleClose}>
-              LOGIN
-          </MenuItem>
-          <MenuItem onClick={handleClose}>
-               SIGN UP
-          </MenuItem>
         </Menu>
       </div>
 
