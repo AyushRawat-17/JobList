@@ -76,6 +76,7 @@ a:hover{
     }
     
     .Mobilenavigation__Link{
+        font-weight:400;
         color: black;
     }
 

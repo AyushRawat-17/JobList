@@ -20,7 +20,7 @@ function Navigation() {
     <div className="Navigation">
 
 <div className="Navigation__Content_Mobile">
-        <button onClick={handleClick} className="Mobilenavigation__button">
+        <button onClick={handleClick} className="Mobilenavigation__button" aria-controls="fade-menu" aria-haspopup="true">
           <ListIcon fontSize="large" />
         </button>
         <Menu

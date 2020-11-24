@@ -96,6 +96,7 @@
 }
 
 @media screen and (max-width: 480px){
+
     .JobList__Content{
         margin: 10px 0px;
         height: 70em;
